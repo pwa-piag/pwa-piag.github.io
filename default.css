@@ -1,4 +1,4 @@
 #main-app-wrapper a.fr-command[title="HUEPZN"],
 #main-app-wrapper a.fr-command[title="HUESKN"]{
-    color:rgb(104, 0, 0) !important;
+    display: none !important;
 }

@@ -1,0 +1,28 @@
+
+#main-app-wrapper #app-dashboard-wrapper,
+#main-app-wrapper #app-content-wrapper,
+#main-app-wrapper .dashboard-view .dashboard-layout{
+    background: linear-gradient(229deg, #ddd92c, #3fd0c4, #823fd0, #d0733f) !important;
+    background-size: 800% 800% !important;
+    -webkit-animation: moveBG 21s ease infinite !important;
+    -moz-animation: moveBG 21s ease infinite !important;
+    animation: moveBG 21s ease infinite !important;
+    /* background-image: none !important;
+     background-image: linear-gradient(229deg, #ddd92c, #3fd0c4, #823fd0, #d0733f) !important; */
+}
+
+@-webkit-keyframes moveBG {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@-moz-keyframes moveBG {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@keyframes moveBG {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}

@@ -1,0 +1,96 @@
+/*ICONS*/
+.LG-Button.primary{
+	color: #000000 !important;
+}
+.LGAppToolbarAbstractIcon{
+	color: #000000 !important;
+}
+
+/*WIDGETS*/
+.dashboard-widget {
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 25%) !important;
+}
+.dashboard-widget:hover {
+	box-shadow: 0 5px 10px 0 rgb(0 0 0 / 6%) !important;
+	transition: box-shadow .1s ease-in-out !important;
+}
+
+/*BUTTONS*/
+.button.customColor {
+    background-color: #f5f200 !important;
+    color: #000000 !important;
+    box-shadow: 0 1px 3px 0 #00000080 !important;
+}
+.button.customColor:hover{
+    background-color: #fffb19 !important;
+}
+
+.LGAppBreadCrumbs{
+    color:#000000 !important;
+}
+
+
+
+.LRToggleBox .togglebox.on{
+    background-color: #d0fdd6;
+}
+.LRToggleBox .togglebox{
+    background-color: #ffdada;
+}
+.LRToggleBox .togglebox.on .toggle{
+    background-color: #000000;
+}
+
+
+.dashboard-widget .dashboard-widget-content .dashboard-widget-footer{
+	background-color: #000000;
+}
+
+
+
+.dashboard-widget .widget-header::after {
+    content: '';
+    background-color: #f5f200;
+    height: 13px;
+    position: absolute;
+    width: 0%;
+    top: 30px;
+    left: 8px;
+    transform: skew(-24deg, -2deg);
+    transition: 0.2s 0s ease-in;
+}
+.dashboard-widget:hover .widget-header::after {
+    width: 34%;
+}
+.widget-header-title {
+    z-index: 4 !important;
+}
+
+
+
+.LGAppToolbar{
+    box-shadow: 10px 0px 15px 0px rgb(0 0 0 / 15%);
+}
+
+.newDATasks-outer{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 25%) !important;
+}
+
+
+.DA-top-container .tasksMessage, .LG-Icon.ic-sync,
+.DA-top-container .tasksMessage .LGElement-keyboard-focus.outline-accessibility:nth-child(1){
+	color:  #000000 !important;
+}
+
+.LGAppToolbarAbstractIcon:hover{
+	background-color: #f5f200;
+}
+
+.dashboard-view .dashboard-layout .middle-panel{
+    background-color: hsla(0,0%,0%,.2) !important;
+}
+
+
+.LG-SimpleMaskLayout {
+    border-radius: 0px !important;
+}
