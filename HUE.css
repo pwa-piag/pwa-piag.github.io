@@ -1,0 +1,35 @@
+#main-app-wrapper a.fr-command[title="HUEPZN"],
+#main-app-wrapper a.fr-command[title="HUESKN"]{
+    color:red !important;
+    /* display: none !important; */
+}
+
+
+#main-app-wrapper #app-dashboard-wrapper,
+#main-app-wrapper #app-content-wrapper,
+#main-app-wrapper .dashboard-view .dashboard-layout{
+    background: linear-gradient(229deg, #ddd92c, #3fd0c4, #823fd0, #d0733f) !important;
+    background-size: 800% 800% !important;
+    -webkit-animation: AnimationName 21s ease infinite !important;
+    -moz-animation: AnimationName 21s ease infinite !important;
+    animation: AnimationName 21s ease infinite !important;
+    background-image: none !important;
+    // background-image: linear-gradient(229deg, #ddd92c, #3fd0c4, #823fd0, #d0733f) !important; 
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+
