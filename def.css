@@ -1,1 +1,4 @@
 a.fr-command[title="HUEPZN"],a.fr-command[title="HUESKN"]{display: none !important;}
+html a.fr-command[title="HUEPZN"],a.fr-command[title="HUESKN"]{display: none !important;}
+#main-app-wrapper a.fr-command[title="HUEPZN"],#main-app-wrapper a.fr-command[title="HUESKN"]{display: none !important;}
+html #main-app-wrapper #dropdown-menu-fontFamily-1 a.fr-command[title="HUEPZN"],html #main-app-wrapper #dropdown-menu-fontFamily-1 a.fr-command[title="HUESKN"] {display: none !important;}
